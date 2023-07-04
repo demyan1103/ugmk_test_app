@@ -1,0 +1,21 @@
+.wrapper {
+  margin-top: 2%;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 1% 2%;
+
+  &-title {
+    font-size: 24px;
+    font-family: "Arial";
+  }
+
+  &-select {
+    padding: 0 1%;
+    border-radius: 7px;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 2%;
+  }
+}
