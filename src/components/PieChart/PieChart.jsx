@@ -21,10 +21,10 @@ export const PieChart = ({ arrayOfProductsCount }) => {
           labelLine={false}
           dataKey="value"
         >
-          {arrayOfProductsCount.map((entry, index) => (
+          {arrayOfProductsCount.map((item, index) => (
             <Cell
               name={`Продукт ${index + 1}`}
-              key={`cell-${index}`}
+              key={item.value}
               fill={pieChartColors[index % pieChartColors.length]}
             />
           ))}

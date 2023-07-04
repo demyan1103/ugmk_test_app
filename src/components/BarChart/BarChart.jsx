@@ -1,3 +1,4 @@
+import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import {
   BarChart as BarChartRecharts,
@@ -10,7 +11,6 @@ import {
 } from "recharts";
 import { labels } from "../../consts";
 import "./style.scss";
-import { useCallback } from "react";
 
 export const BarChart = ({ productsData }) => {
   const navigate = useNavigate();
