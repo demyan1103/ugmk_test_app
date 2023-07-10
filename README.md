@@ -28,9 +28,13 @@
 
 Команда для запуска:
 
-### `docker-compose up -d`
+### `npm run start-container`
 
 После выполнения скрипта, приложение запустится на http://localhost
+
+Команда для создания  docker image:
+
+### `npm run dockerize`
 
 ## Структура приложения
 

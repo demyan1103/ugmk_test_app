@@ -24,7 +24,9 @@
     "eject": "react-scripts eject",
     "server": "json-server --watch products.json --port 3001",
     "serv": "json-server --watch products.json --port 3001 --host 0.0.0.0",
-    "start:dev": "concurrently \"npm start\" \"json-server --watch products.json --port 3001\""
+    "start:dev": "concurrently \"npm start\" \"json-server --watch products.json --port 3001\"",
+    "dockerize":"sudo docker-compose build",
+    "start-container": "sudo docker-compose up -d"
   },
   "eslintConfig": {
     "extends": [
